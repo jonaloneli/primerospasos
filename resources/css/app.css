@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/******************* BASE H1*******************/
+h1{
+    @apply text-4xl mb-3
+}
+/******************* BASE H1*******************/
+
+
+/******************* tabla basica *******************/
+.table{
+    @apply table-auto w-full
+}
+
+.table th{
+    @apply px-6 py-2 bg-gray-50 font-medium text-gray-500 uppercase border leading-4 -tracking-widest
+}
+
+.table tr{
+    @apply border  
+}
+
+.table td{
+    @apply px-6 py-4 whitespace-normal
+}
+
+a{
+    @apply px-6 text-green-500
+}
+/******************* tabla basica *******************/
+
+/******************* formulario *******************/
+.form-control{
+    @apply block rounded-sm shadow-sm bg-purple-50 w-full
+}
+label{
+    @apply mt-3 block
+}
+/******************* formulario *******************/
+
+/******************* Botones btn *******************/
+.btn{
+    @apply border rounded px-3 py-2 text-white font-bold inline-block transition-all
+}
+.btn-danger{
+    @apply bg-red-600 hover:bg-red-900 border-red-600
+}
+.btn-success{
+    @apply bg-green-600 hover:bg-green-900 border-green-600
+}
+.btn-primary{
+    @apply bg-blue-600 hover:bg-blue-900 border-blue-600
+}
+.btn-warning{
+    @apply bg-yellow-600 hover:bg-yellow-900 border-yellow-600
+}
+/******************* Botones btn *******************/
+
+/******************* CARTAS div hijo *******************/
+.card{
+    @apply p-6 rounded shadow-sm
+}
+.card-white{
+    @apply bg-white
+}
+/******************* CARTAS div hijo *******************/

@@ -21,6 +21,7 @@ class CategoryController extends Controller
         return to_route("category.create");
     }
 
+
     /**
      * Show the form for creating a new resource.
      */
